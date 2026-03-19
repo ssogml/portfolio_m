@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAWON</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../image/favicon.svg" type="image/x-icon" />
+
+    <!-- font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/jquery.fullPage.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sub.css">
+
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="../js/common.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <h1><a href="../index.html"><img src="../image/common/logo.png" alt="HAWON"></a></h1>
+            <div class="inner">
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="brand.html" class="roll">
+                                <span class="front">Brand</span>
+                                <span class="back">Brand</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="brand.html">About us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="shop.html" class="roll">
+                                <span class="front">Shop</span>
+                                <span class="back">Shop</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="shop.html">All</a></li>
+                                <li><a href="shop.html">Best</a></li>
+                                <li><a href="shop.html">인삼</a></li>
+                                <li><a href="shop.html">당귀</a></li>
+                                <li><a href="shop.html">인동초</a></li>
+                                <li><a href="shop.html">국화</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="roll">
+                                <span class="front">Event</span>
+                                <span class="back">Event</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="roll">
+                                <span class="front">Membership</span>
+                                <span class="back">Membership</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="#">정기구독</a></li>
+                                <li><a href="#">멤버십 등급별 혜택안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="community.html" class="roll">
+                                <span class="front">Community</span>
+                                <span class="back">Community</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="community.html">Review</a></li>
+                                <li><a href="community.html">Notice</a></li>
+                                <li><a href="community.html">CS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="btn_menu"><img src="../image/common/btn_menu.png" alt="메뉴열기"></button>
+
+                <div class="util">
+                    <button class="btn_search">검색열기</button>
+                    <button class="btn_order">장바구니</button>
+                    <button class="btn_mypage">마이페이지</button>
+                </div>
+            </div><!-- inner -->
+
+            <div class="depth2_bg"></div>
+
+            <div class="mgnb_wrap">
+                <div class="mgnb_inner">
+
+                    <div class="mgnb_search">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button class="mgnb_search_btn">검색</button>
+                    </div>
+
+                    <ul class="mgnb">
+                        <li><a href="#">Brand</a>
+                            <ul class="depth2">
+                                <li><a href="brand.html">About us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Shop</a>
+                            <ul class="depth2">
+                                <li><a href="shop.html">All</a></li>
+                                <li><a href="shop.html">Best</a></li>
+                                <li><a href="shop.html">인삼</a></li>
+                                <li><a href="shop.html">당귀</a></li>
+                                <li><a href="shop.html">인동초</a></li>
+                                <li><a href="shop.html">국화</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Event</a>
+                            <ul class="depth2">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Membership</a>
+                            <ul class="depth2">
+                                <li><a href="#">정기구독</a></li>
+                                <li><a href="#">멤버십 등급별 혜택안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Community</a>
+                            <ul class="depth2">
+                                <li><a href="community.html">Review</a></li>
+                                <li><a href="community.html">Notice</a></li>
+                                <li><a href="community.html">CS</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">My Page</a></li>
+
+                    </ul>
+                </div><!-- mgnb_inner -->
+                <button class="mgnb_close"><img src="../image/common/btn_close.png" alt="메뉴닫기"></button>
+            </div><!-- mgnb_wrap -->
+        </header>
+
+        <div id="shop" class="pad_top">
+
+            <div class="visual bg_shop">
+                <div class="inner" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <span>All Products</span>
+                    <h2>자연을 담은 화온 이너 케어 컬렉션</h2>
+                </div>
+            </div><!-- sub_visual -->
+
+            <section class="prd">
+                <div class="inner">
+                    <div class="btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <button class="active">All</button>
+                        <button>Best</button>
+                        <button>인삼</button>
+                        <button>당귀</button>
+                        <button>인동초</button>
+                        <button>국화</button>
+                    </div><!-- btn -->
+
+
+                    <ul class="prd_list">
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/dang_s.png" alt="당귀 이너글로우 스틱" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">당귀 이너글로우 스틱</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>피부생기</span>
+                                        <span>체내순환</span>
+                                        <span>피부광채</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">30ml x 30포</p>
+                                        <p class="price">32,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/dang_ex.png" alt="당귀 농축진액" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">당귀 농축진액</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>혈액순환</span>
+                                        <span>기력보충</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">70ml x 30병</p>
+                                        <p class="price">49,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/dang_c.png" alt="당귀 이너글로우 캡슐" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">당귀 이너글로우 캡슐</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>영양흡수</span>
+                                        <span>활력</span>
+                                        <span>에너지보충</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">500mg x 30정</p>
+                                        <p class="price">36,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/gin_s.png" alt="인삼 이너글로우 스틱" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">인삼 이너밸런스 스틱</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>피부결케어</span>
+                                        <span>밸런스</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">30ml x 30포</p>
+                                        <p class="price">37,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/gin_ex.png" alt="당귀 농축진액" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">인삼 농축진액</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>면역강화</span>
+                                        <span>탄력</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">70ml x 30병</p>
+                                        <p class="price">54,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/gin_c.png" alt="인삼 이너글로우 캡슐" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">인삼 이너밸런스 캡슐</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>리프레시</span>
+                                        <span>활력</span>
+                                        <span>에너지보충</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">500mg x 30정</p>
+                                        <p class="price">41,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/chry_ic.png" alt="국화 이너케어 스틱" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">국화 이너케어 스틱</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>피부결케어</span>
+                                        <span>피부톤케어</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">20ml x 30포</p>
+                                        <p class="price">25,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/dang_ic.png" alt="당귀 이너케어 스틱" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">당귀 이너케어 스틱</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>피부광채</span>
+                                        <span>피부생기</span>
+                                        <span>밸런스</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">20ml x 30포</p>
+                                        <p class="price">26,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+
+                        <li class="prd_content">
+                            <a href="#">
+                                <img src="../image/sub/indong_ic.png" alt="인동초 이너케어 스틱" data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                            </a>
+
+                            <a href="#">
+                                <div class="prd_txt">
+                                    <p class="prd_name" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">인동초 이너케어 스틱</p>
+                                    <div class="tag" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <span>피부진정</span>
+                                        <span>피부결케어</span>
+                                        <span>밸런스</span>
+                                    </div>
+                                    <div class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                        <p class="setup">20ml x 30포</p>
+                                        <p class="price">24,000원</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><!-- prd_content -->
+                    </ul><!-- prd_list -->
+
+                    <div class="paging" data-aos="fade" data-aos-duration="1000" data-aos-delay="300">
+                        <a class="prev" href="#"><img src="../image/sub/prev.png" alt="이전"></a>
+                        <a class="on" href="#">1</a>
+                        <a class="next" href="#"><img src="../image/sub/next.png" alt="다음"></a>
+                    </div><!-- paging -->
+
+                </div><!-- inner -->
+            </section><!-- prd -->
+        </div><!-- container -->
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_left">
+                    <h1><img src="../image/common/logo.png" alt="화온로고"></h1>
+                    <p>화온(HAWON) | 대표자명: 박소희</p>
+                    <P>사업자등록번호: 123-45-67890</P>
+                    <P>부산광역시 중앙대로 708, 부산파이낸스센터 4층</P>
+                    <P class="copy">2025 HAWON Natural Inner Beauty, All rights reserved.</P>
+                </div>
+
+                <div class="footer_right">
+                    <div class="footer_link">
+                        <div class="cs category">
+                            <span>CS</span>
+                            <strong>070-1234-5678</strong>
+                            <p>09:00 ~ 18:00</p>
+                            <p>월요일 ~ 금요일(공휴일 제외)</p>
+                        </div>
+
+                        <div class="q&a category">
+                            <span>Q&A</span>
+                            <a href="#">공지사항</a>
+                            <a href="#">1:1 문의</a>
+                        </div>
+
+                        <div class="order category">
+                            <span>Order Tracking</span>
+                            <a href="#">주문내역</a>
+                            <a href="#">배송조회</a>
+                        </div>
+
+                        <div class="sns category">
+                            <span>SNS</span>
+                            <a href="#">Instagram</a>
+                        </div>
+
+                        <div class="Partnership category">
+                            <span>Partnership</span>
+                            <a href="#">제휴문의</a>
+                            <a href="#">해외수출문의</a>
+                        </div>
+                    </div><!-- footer_link -->
+                </div><!-- footer_right -->
+            </div><!-- inner -->
+            <button class="gotop"></button>
+        </footer>
+    </div><!-- wrap -->
+
+    <script>
+        AOS.init({
+            duration: 1500,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>

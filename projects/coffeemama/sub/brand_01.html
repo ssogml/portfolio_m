@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee mama</title>
+    <link rel="shortcut icon" href="../image/common/favicon.png" type="image/x-icon" />
+    <!-- font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/common.css"><!-- header, footer에 공통 스타일 -->
+    <link rel="stylesheet" href="../css/sub.css">
+
+    <!-- js -->
+    <script defer src="../js/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="../js/sub.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script><!-- js의 라이브러리 파일: 유용한 참고코드 -->
+    <script defer src="../js/common.js"></script><!-- header, footer에 공통 스타일 -->
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="../index.html">
+                        <img src="../image/common/logo_w.png" alt="커피마마로고">
+                    </a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="brand_01.html">커피마마</a>
+                            <ul class="depth2">
+                                <li><a href="brand_01.html#story">브랜드 스토리</a></li>
+                                <li><a href="brand_01.html#history">브랜드 히스토리</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="menu_01.html">메뉴</a>
+                            <ul class="depth2">
+                                <li><a href="menu_01.html">NEW</a></li>
+                                <li><a href="menu_02.html">ALL</a></li>
+                                <li><a href="menu_03.html">COFFEE</a></li>
+                                <li><a href="menu_04.html">BEVERAGE</a></li>
+                                <li><a href="menu_05.html">DESERT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="store_01.html">매장찾기</a>
+                            <ul class="depth2">
+                                <li><a href="store_01.html">매장찾기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="event_01.html">이벤트</a>
+                            <ul class="depth2">
+                                <li><a href="event_01.html">진행중인 이벤트</a></li>
+                                <li><a href="event_02.html">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="franchise_01.html">프랜차이즈</a>
+                            <ul class="depth2">
+                                <li><a href="franchise_01.html#guide">개설안내</a></li>
+                                <li><a href="franchise_01.html#step">개설절차</a></li>
+                                <li><a href="franchise_01.html#cost">개설비용</a></li>
+                                <li><a href="franchise_01.html#request">개설문의</a></li>
+                                <li><a href="franchise_01.html#faq">가맹점개설 FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="community_01.html">커뮤니티</a>
+                            <ul class="depth2">
+                                <li><a href="community_01.html">공지사항</a></li>
+                                <li><a href="community_02.html">고객센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mgnb_wrap">
+                        <div class="mgnb_inner">
+                            <ul class="mgnb">
+                                <li><a href="brand_01.html">커피마마</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="brand_01.html#story">브랜드 스토리</a></li>
+                                        <li><a href="brand_01.html#history">브랜드 히스토리</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="menu_01.html">메뉴</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="menu_01.html">NEW</a></li>
+                                        <li><a href="menu_02.html">ALL</a></li>
+                                        <li><a href="menu_03.html">COFFEE</a></li>
+                                        <li><a href="menu_04.html">BEVERAGE</a></li>
+                                        <li><a href="menu_05.html">DESERT</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="store_01.html">매장찾기</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="store_01.html">매장찾기</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="event_01.html">이벤트</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="event_01.html">진행중인 이벤트</a></li>
+                                        <li><a href="event_02.html">종료된 이벤트</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="franchise_01.html">프랜차이즈</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="franchise_01.html#guide">개설안내</a></li>
+                                        <li><a href="franchise_01.html#step">개설절차</a></li>
+                                        <li><a href="franchise_01.html#cost">개설비용</a></li>
+                                        <li><a href="franchise_01.html#request">개설문의</a></li>
+                                        <li><a href="franchise_01.html#faq">가맹점개설 FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="community_01.html">커뮤니티</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="community_01.html">공지사항</a></li>
+                                        <li><a href="community_02.html">고객센터</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- mgnb_inner -->
+                        <button class="mgnb_close"><img src="../image/common/icon_close.svg" alt="메뉴닫기"></button>
+                    </div><!-- mgnb_wrap -->
+                </nav>
+
+                <button class="btn_menu"><img src="../image/common/btn_menu_w.png" alt="메뉴열기"></button>
+            </div>
+        </header>
+
+        <container id="container">
+            <div class="sub_visual bg_brand">
+                <h1>커피마마</h1>
+            </div><!-- sub_visual -->
+
+            <div class="sub_contents brand">
+                <ul class="lnb">
+                    <li><a class="on" href=".story">BRAND STORY</a></li>
+                    <li><a href=".history">BRAND HISTORY</a></li>
+                </ul>
+                <div class="inner">
+                    <div id="story" class="story margin150">
+                        <h2>BRAND STORY</h2>
+                        <div data-aos="fade-up" class="story_txt">
+                            <strong>WHAT IS DIFFRENT?</strong>
+                            <p class="story_subt">동네커피집으로 시작하여 이제 대한민국 전국 곳곳에서 만날 수 있는 멋진 브랜드로 성장한 커피마마는 <br> 19년 직영점
+                                노하우를 바탕으로 성공 카페창업을
+                                주도하는 프랜차이즈 기업입니다.</p>
+                        </div>
+
+                        <ul class="story_img">
+                            <li class="active">
+                                <div class="hover_txt">
+                                    <h4>01. <br>
+                                        <span>Reasonable Price</span>
+                                    </h4>
+                                    <em>“가볍게 즐기는 깊이 있는 커피 한 잔”</em>
+                                    <p>합리적인 가격으로 누구나 쉽게 접할 수 있는
+                                        커피문화를 선도합니다. 부담없는 가격에 품질과 즐거움을 모두 담아내는 것이 목표입니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover_txt">
+                                    <h4>02. <br>
+                                        <span>Perfectly Brewed</span>
+                                    </h4>
+                                    <em>“익숙함 속의 차별화된 풍미” </em>
+                                    <p>한국사람 입맛에 맞는 커피맛을 끊임없이 연구합니다. 바디감, 디테일한 풍미까지 고려하여 편안하고 익숙한 맛의 밸런스를 선사합니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover_txt">
+                                    <h4>03. <br>
+                                        <span>Communication</span>
+                                    </h4>
+                                    <em>“사람과 사람 사이, 커피 한 잔의 여유로”</em>
+                                    <p>커피 한 잔이 사람을 잇는 따뜻한 매개체라고 믿습니다. 커피를 중심으로 자연스럽게 이어지는 관계를 소중히 생각하며 소통의 가치를 담은 공간을
+                                        지향합니다.</p>
+                                </div>
+                            </li>
+                        </ul><!-- story_img -->
+                    </div><!-- story -->
+
+
+                    <div id="history" class="history margin150">
+                        <h2>BRAND HISTORY</h2>
+                        <div class="content">
+                            <ul class="timeline_wrap">
+                                <li class="scroll-custom">
+                                    <div class="content_txt" data-aos="fade-right">
+                                        <strong>COFFEE MAMA 첫번째 매장 오픈</strong>
+                                    </div>
+                                    <div class="year">2001</div>
+                                    <div class="content_img">
+                                        <div data-aos="fade-left">
+                                            <img src="../image/sub/history_01.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_img">
+                                        <div data-aos="fade-right">
+                                            <img src="../image/sub/history_02.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                    <div class="year">2006</div>
+                                    <div class="content_txt" data-aos="fade-left">
+                                        <strong>커피마마 로스팅 블렌드 구축</strong>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_txt" data-aos="fade-right">
+                                        <strong>커피마마 물류센터 완공 (1호 센터)</strong>
+                                    </div>
+                                    <div class="year">2010</div>
+                                    <div class="content_img">
+                                        <div data-aos="fade-left">
+                                            <img src="../image/sub/history_03.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_img">
+                                        <div data-aos="fade-right">
+                                            <img src="../image/sub/history_04.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                    <div class="year">2011</div>
+                                    <div class="content_txt" data-aos="fade-left">
+                                        <strong>커피마마 150호점 돌파!</strong>
+                                        <span>+ 커피마마 물류센터 완공 (2호) <br>
+                                            + 커피마마 10주년</span>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_txt" data-aos="fade-right">
+                                        <strong>일자리창출 우수기업 인증</strong>
+                                        <span>+ 경영혁신형 중소기업 인증 <br>
+                                            + 교육과학기술부 인증</span>
+                                    </div>
+                                    <div class="year">2012</div>
+                                    <div class="content_img">
+                                        <div data-aos="fade-left">
+                                            <img src="../image/sub/history_05.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_img">
+                                        <div data-aos="fade-right">
+                                            <img src="../image/sub/history_06.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                    <div class="year">2014</div>
+                                    <div class="content_txt" data-aos="fade-left">
+                                        <strong>카카오톡 모바일쿠폰 입점</strong>
+                                        <span>+ 여성 소비자가 뽑은 프리미엄 브랜드 대상 수상!</span>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_txt" data-aos="fade-right">
+                                        <strong>2015 대한민국 브랜드파워 대상</strong>
+                                    </div>
+                                    <div class="year">2015</div>
+                                    <div class="content_img">
+                                        <div data-aos="fade-left">
+                                            <img src="../image/sub/history_07.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_img">
+                                        <div data-aos="fade-right">
+                                            <img src="../image/sub/history_08.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                    <div class="year">2016</div>
+                                    <div class="content_txt" data-aos="fade-left">
+                                        <strong>스틱커피 '토카노코' 출시</strong>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_txt" data-aos="fade-right">
+                                        <strong>배달대행업체 '요기요' 입점!</strong>
+                                    </div>
+                                    <div class="year">2019</div>
+                                    <div class="content_img">
+                                        <div data-aos="fade-left">
+                                            <img src="../image/sub/history_09.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="scroll-custom">
+                                    <div class="content_img">
+                                        <div data-aos="fade-right">
+                                            <img src="../image/sub/history_10.png" alt="히스토리이미지">
+                                        </div>
+                                    </div>
+                                    <div class="year">2020</div>
+                                    <div class="content_txt" data-aos="fade-left">
+                                        <strong>커피마마 2.0 변화의 시작</strong>
+                                    </div>
+                                </li>
+                            </ul><!-- timeline_wrap -->
+                        </div><!-- content -->
+                    </div><!-- hitory -->
+                </div><!-- inner -->
+            </div>
+        </container>
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_left">
+                    <div class="footer_logo">
+                        <img src="../image/common/logo.png" alt="커피마마로고">
+                    </div>
+                    <div class="footer_sns">
+                        <a href="#"><img src="../image/sub/icon_insta.png" alt="insta"></a>
+                        <a href="#"><img src="../image/sub/icon_facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="../image/sub/icon_kakao.png" alt="kakao"></a>
+                        <a href="#"><img src="../image/sub/icon_youtube.png" alt="youtube"></a>
+                    </div>
+                </div>
+                <div class="footer_txt">
+                    <div class="footer_link">
+                        <a href="brand_01.html">회사소개</a>
+                        <a href="franchise_01.html#request">가맹문의</a>
+                        <a href="store_01.html">매장찾기</a>
+                        <a href="community_01.html">이용약관</a>
+                        <a href="community_01.html">개인정보 처리방침</a>
+                        <a href="community_02.html">고객센터</a>
+                    </div>
+                    <address>
+                        <ul>
+                            <li>서울 강남구 삼성로133길 4 청솔빌딩 2층(청담역 8번출구)</li>
+                            <li>TEL : 1644-2968</li>
+                            <li>FAX : 02-434-2963</li>
+                            <li>사업자등록번호 : 204-86-21969</li>
+                            <li>상호 : 티에고(주) </li>
+                            <li>대표 : 박태고</li>
+                        </ul>
+                    </address>
+
+                    <p class="copy">COPYRIGHT © 2014 Coffeemama ALL RIGHTS RESERVED</p>
+
+                </div>
+            </div>
+            <button class="gotop">TOP</button>
+            <button class="inquire"><a href="sub/franchise_04.html">가맹 <br> 문의</a></button>
+        </footer>
+    </div>
+</body>
+
+</html>

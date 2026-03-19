@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee mama</title>
+    <link rel="shortcut icon" href="../image/common/favicon.png" type="image/x-icon" />
+    <!-- font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/common.css"><!-- header, footer에 공통 스타일 -->
+    <link rel="stylesheet" href="../css/sub.css">
+
+    <!-- js -->
+    <script defer src="../js/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="../js/sub.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script><!-- js의 라이브러리 파일: 유용한 참고코드 -->
+    <script defer src="../js/common.js"></script><!-- header, footer에 공통 스타일 -->
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="../index.html"><img src="../image/common/logo_w.png" alt="커피마마로고"></a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="brand_01.html">커피마마</a>
+                            <ul class="depth2">
+                                <li><a href="brand_01.html#story">브랜드 스토리</a></li>
+                                <li><a href="brand_01.html#history">브랜드 히스토리</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="menu_01.html">메뉴</a>
+                            <ul class="depth2">
+                                <li><a href="menu_01.html">NEW</a></li>
+                                <li><a href="menu_02.html">ALL</a></li>
+                                <li><a href="menu_03.html">COFFEE</a></li>
+                                <li><a href="menu_04.html">BEVERAGE</a></li>
+                                <li><a href="menu_05.html">DESERT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="store_01.html">매장찾기</a>
+                            <ul class="depth2">
+                                <li><a href="store_01.html">매장찾기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="event_01.html">이벤트</a>
+                            <ul class="depth2">
+                                <li><a href="event_01.html">진행중인 이벤트</a></li>
+                                <li><a href="event_02.html">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="franchise_01.html">프랜차이즈</a>
+                            <ul class="depth2">
+                                <li><a href="franchise_01.html#guide">개설안내</a></li>
+                                <li><a href="franchise_01.html#step">개설절차</a></li>
+                                <li><a href="franchise_01.html#cost">개설비용</a></li>
+                                <li><a href="franchise_01.html#request">개설문의</a></li>
+                                <li><a href="franchise_01.html#faq">가맹점개설 FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="community_01.html">커뮤니티</a>
+                            <ul class="depth2">
+                                <li><a href="community_01.html">공지사항</a></li>
+                                <li><a href="community_02.html">고객센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mgnb_wrap">
+                        <div class="mgnb_inner">
+                            <ul class="mgnb">
+                                <li><a href="brand_01.html">커피마마</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="brand_01.html#story">브랜드 스토리</a></li>
+                                        <li><a href="brand_01.html#history">브랜드 히스토리</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="menu_01.html">메뉴</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="menu_01.html">NEW</a></li>
+                                        <li><a href="menu_02.html">ALL</a></li>
+                                        <li><a href="menu_03.html">COFFEE</a></li>
+                                        <li><a href="menu_04.html">BEVERAGE</a></li>
+                                        <li><a href="menu_05.html">DESERT</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="store_01.html">매장찾기</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="store_01.html">매장찾기</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="event_01.html">이벤트</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="event_01.html">진행중인 이벤트</a></li>
+                                        <li><a href="event_02.html">종료된 이벤트</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="franchise_01.html">프랜차이즈</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="franchise_01.html#guide">개설안내</a></li>
+                                        <li><a href="franchise_01.html#step">개설절차</a></li>
+                                        <li><a href="franchise_01.html#cost">개설비용</a></li>
+                                        <li><a href="franchise_01.html#request">개설문의</a></li>
+                                        <li><a href="franchise_01.html#faq">가맹점개설 FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="community_01.html">커뮤니티</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="community_01.html">공지사항</a></li>
+                                        <li><a href="community_02.html">고객센터</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- mgnb_inner -->
+                        <button class="mgnb_close"><img src="../image/common/icon_close.svg" alt="메뉴닫기"></button>
+                    </div><!-- mgnb_wrap -->
+                </nav>
+
+                <button class="btn_menu"><img src="../image/common/btn_menu_w.png" alt="메뉴열기"></button>
+            </div>
+        </header>
+
+        <container id="container">
+            <div class="sub_visual bg_store">
+                <h1>매장찾기</h1>
+            </div><!-- sub_visual -->
+
+            <div class="sub_contents store" data-aos="fade-up">
+                <div class="contents">
+                    <div class="store_tab">
+                        <div class="inner">
+                            <ul class="lnb">
+                                <li><a class="on" href="store_01.html">지점명</a></li>
+                                <li><a href="store_02.html">지역</a></li>
+                                <li><a href="store_03.html">옵션선택</a></li>
+                            </ul>
+                            <div class="search">
+                                <div class="search_wrap">
+                                    <form action="#">
+                                        <fieldset>
+                                            <legend>검색영역</legend>
+                                            <div class="input_box">
+                                                <input type="text" placeholder="내용을 입력해주세요.">
+                                                <input type="submit">
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                                <div class="store_list">
+                                    <span>TOTAL 10</span>
+                                    <ul>
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.2920755964537!2d129.05425437739834!3d35.19919307274663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356894bc40681c53%3A0xcaefb80f1a789491!2z67aA7IKw6rSR7Jet7IucIOuPmeuemOq1rCDsh6Drr7jroZw2MOuyiOq4uCA1Mw!5e0!3m2!1sko!2skr!4v1762924157223!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>부산 사직점</span>
+                                                    <p>부산광역시 동래구 쇠미로60번길 53</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.6983846077833!2d129.0373791773954!3d35.089268172784315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568e91027b339ad%3A0x871919bd89737e19!2z67aA7IKw6rSR7Jet7IucIOyYgeuPhOq1rCDrgqjtla3roZwzMeuyiOq4uCA1!5e0!3m2!1sko!2skr!4v1762924186830!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>부산 남항점</span>
+                                                    <p>부산광역시 영도구 남항로31번길 5</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.5544421496206!2d128.702887377397!3d35.14279087276582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568d244ccbff3f3%3A0x1aed79c1a790a152!2z6rK97IOB64Ko64-EIOywveybkOyLnCDsp4TtlbTqtawg7KeE7ZW064yA66GcOTc267KI6ri4IDYtMjY!5e0!3m2!1sko!2skr!4v1762924227367!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>창원 진해자은우리집</span>
+                                                    <p>경상남도 창원시 진해구 진해대로976번길 6-26</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.5544421496206!2d128.702887377397!3d35.14279087276582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568d266c688e27f%3A0x29bb896fb2abcb06!2z6rK97IOB64Ko64-EIOywveybkOyLnCDsp4TtlbTqtawg7ISd64-Z66GcIDE1!5e0!3m2!1sko!2skr!4v1762924261431!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>창원 석동점</span>
+                                                    <p>경남 창원시 진해구 석동로 15</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.2821410814367!2d128.62592657739813!3d35.199440572746674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356f329ef1078069%3A0xd079631b5525f509!2z6rK97IOB64Ko64-EIOywveybkOyLnCDshLHsgrDqtawg7Iug7LSM66GcIDExMiAxMDItMe2YuA!5e0!3m2!1sko!2skr!4v1762924289622!5m2!1sko!2sk"
+                                                    target="storemap">
+                                                    <span>창원 신촌점</span>
+                                                    <p>경남 창원시 성산구 신촌로 112 102-1호</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.2920755964537!2d129.05425437739834!3d35.19919307274663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356894bc40681c53%3A0xcaefb80f1a789491!2z67aA7IKw6rSR7Jet7IucIOuPmeuemOq1rCDsh6Drr7jroZw2MOuyiOq4uCA1Mw!5e0!3m2!1sko!2skr!4v1762924157223!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>부산 사직점</span>
+                                                    <p>부산광역시 동래구 쇠미로60번길 53</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.6983846077833!2d129.0373791773954!3d35.089268172784315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568e91027b339ad%3A0x871919bd89737e19!2z67aA7IKw6rSR7Jet7IucIOyYgeuPhOq1rCDrgqjtla3roZwzMeuyiOq4uCA1!5e0!3m2!1sko!2skr!4v1762924186830!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>부산 남항점</span>
+                                                    <p>부산광역시 영도구 남항로31번길 5</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.5544421496206!2d128.702887377397!3d35.14279087276582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568d244ccbff3f3%3A0x1aed79c1a790a152!2z6rK97IOB64Ko64-EIOywveybkOyLnCDsp4TtlbTqtawg7KeE7ZW064yA66GcOTc267KI6ri4IDYtMjY!5e0!3m2!1sko!2skr!4v1762924227367!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>창원 진해자은우리집</span>
+                                                    <p>경상남도 창원시 진해구 진해대로976번길 6-26</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.5544421496206!2d128.702887377397!3d35.14279087276582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568d266c688e27f%3A0x29bb896fb2abcb06!2z6rK97IOB64Ko64-EIOywveybkOyLnCDsp4TtlbTqtawg7ISd64-Z66GcIDE1!5e0!3m2!1sko!2skr!4v1762924261431!5m2!1sko!2skr"
+                                                    target="storemap">
+                                                    <span>창원 석동점</span>
+                                                    <p>경남 창원시 진해구 석동로 15</p>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="location">
+                                                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.2821410814367!2d128.62592657739813!3d35.199440572746674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356f329ef1078069%3A0xd079631b5525f509!2z6rK97IOB64Ko64-EIOywveybkOyLnCDshLHsgrDqtawg7Iug7LSM66GcIDExMiAxMDItMe2YuA!5e0!3m2!1sko!2skr!4v1762924289622!5m2!1sko!2sk"
+                                                    target="storemap">
+                                                    <span>창원 신촌점</span>
+                                                    <p>경남 창원시 성산구 신촌로 112 102-1호</p>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="district">
+                                <span>시/도 선택</span>
+                                <table>
+                                    <caption>시/도 선택</caption>
+                                    <tr>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d101212.07386840318!2d126.92336442854825!3d37.55795433004563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Luk7ZS866eI66eIIOyEnOyauA!5e0!3m2!1sko!2skr!4v1762926247941!5m2!1sko!2skr"
+                                                target="storemap">서울특별시</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d202404.05768641058!2d126.8093357209294!3d37.56534893713411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Luk7ZS866eI66eI!5e0!3m2!1sko!2skr!4v1762926135133!5m2!1sko!2skr"
+                                                target="storemap">경기도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d101400.1065365567!2d126.59255337886488!3d37.41930487603153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7J247LKc6rSR7Jet7IucIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926296885!5m2!1sko!2skr"
+                                                target="storemap">인천광역시</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d51422.19695181584!2d127.37916843458783!3d36.339280919089894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z64yA7KCE6rSR7Jet7IucIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926341740!5m2!1sko!2skr"
+                                                target="storemap">대전광역시</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d204156.04543359514!2d126.79662096260915!3d36.915741738322865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Lap7LKt64Ko64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762928002251!5m2!1sko!2skr"
+                                                target="storemap">충청남도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d192800.48702015978!2d127.73183257229515!3d36.875017682395956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Lap7LKt67aB64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762927915849!5m2!1sko!2skr"
+                                                target="storemap">충청북도</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52189.53083375814!2d129.05804043374772!3d35.16046930260003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Luk7ZS866eI66eI!5e0!3m2!1sko!2skr!4v1762926489261!5m2!1sko!2skr"
+                                                target="storemap">부산광역시</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d103514.44355178704!2d128.4994119686169!3d35.828735743535084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z64yA6rWs6rSR7Jet7IucIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926532900!5m2!1sko!2skr"
+                                                target="storemap">대구광역시</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d51901.16300079065!2d129.31381813045255!3d35.60744017171845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Jq47IKw6rSR7Jet7IucIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926557244!5m2!1sko!2skr"
+                                                target="storemap">울산광역시</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d416267.4717709379!2d128.555727535229!3d35.40302899264178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6rK97IOB64Ko64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926584004!5m2!1sko!2skr"
+                                                target="storemap">경상남도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d413267.724156406!2d128.69854885021965!3d35.979881400741405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6rK97IOB67aB64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926612980!5m2!1sko!2skr"
+                                                target="storemap">경상북도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d82829.46328407354!2d126.79719603479711!3d35.17641486367043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7Luk7ZS866eI66eIIOq0keyjvA!5e0!3m2!1sko!2skr!4v1762926720043!5m2!1sko!2skr"
+                                                target="storemap">광주광역시</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d838917.755402315!2d126.49365381309073!3d34.780209324264355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7KCE652864Ko64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926786053!5m2!1sko!2skr"
+                                                target="storemap">전라남도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d838930.9570793611!2d126.49364997823713!3d34.778911058946306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7KCE652867aB64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926812060!5m2!1sko!2skr"
+                                                target="storemap">전라북도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d720388.2864458006!2d127.53694150707902!3d37.65796834781399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6rCV7JuQ64-EIOy7pO2UvOuniOuniA!5e0!3m2!1sko!2skr!4v1762926848372!5m2!1sko!2skr"
+                                                target="storemap">강원도</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201070.97165371026!2d126.4948977514797!3d33.460996229999594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cfb0f7fa584c9%3A0xdb276b922d65ac09!2z7Luk7ZS866eI66eI7KCc7KO87Jew64-Z7KCQ!5e0!3m2!1sko!2skr!4v1762926883995!5m2!1sko!2skr"
+                                                target="storemap">제주도</a></td>
+                                        <td><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d365450.3380268903!2d126.97113961321156!3d36.56088170058339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ad3ddfdbaa35b%3A0xfd0d1912fb6896d7!2z7Luk7ZS866eI66eI7YC4IOyhsOy5mOybkOygkA!5e0!3m2!1sko!2skr!4v1762926930868!5m2!1sko!2skr"
+                                                target="storemap">세종시</a></td>
+                                        <td></td> <!-- 마지막 칸 비워둠 -->
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="option">
+                                <span>매장서비스</span>
+                                <table>
+                                    <caption>매장서비스</caption>
+                                    <tr>
+                                        <td><a href="#"><img src="../image/sub/option_subway.png" alt="지하철 인접">지하철
+                                                인접</a>
+                                        </td>
+                                        <td><a href="#"><img src="../image/sub/option_parking.png" alt="주차 가능">주차 가능</a>
+                                        </td>
+                                        <td><a href="#"><img src="../image/sub/option_roasting.png" alt="로스팅">로스팅</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#"><img src="../image/sub/option_education.png" alt="바리스타 교육">바리스타
+                                                교육</a>
+                                        </td>
+                                        <td><a href="#"><img src="../image/sub/option_delivery.png" alt="배달 가능">배달
+                                                가능</a>
+                                        </td>
+                                        <td><a href="#"><img src="../image/sub/option_dt.png" alt="드라이브스루">드라이브스루</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#"><img src="../image/sub/option_groupseat.png" alt="단체석">단체석</a>
+                                        </td>
+                                        <td><a href="#"><img src="../image/sub/option_reservation.png" alt="예약">예약</a>
+                                        </td>
+                                        <td><a href="#"><img src="../image/sub/option_pet.png" alt="반려동물 동반">반려동물 동반</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <button class="btn_search">검색</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="store_map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26095.946606968067!2d129.06004479999996!3d35.156787200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1762924062731!5m2!1sko!2skr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" name="storemap"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </container>
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_left">
+                    <div class="footer_logo">
+                        <img src="../image/common/logo.png" alt="커피마마로고">
+                    </div>
+                    <div class="footer_sns">
+                        <a href="#"><img src="../image/sub/icon_insta.png" alt="insta"></a>
+                        <a href="#"><img src="../image/sub/icon_facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="../image/sub/icon_kakao.png" alt="kakao"></a>
+                        <a href="#"><img src="../image/sub/icon_youtube.png" alt="youtube"></a>
+                    </div>
+                </div>
+                <div class="footer_txt">
+                    <div class="footer_link">
+                        <a href="brand_01.html">회사소개</a>
+                        <a href="franchise_01.html#request">가맹문의</a>
+                        <a href="store_01.html">매장찾기</a>
+                        <a href="community_01.html">이용약관</a>
+                        <a href="community_01.html">개인정보 처리방침</a>
+                        <a href="community_02.html">고객센터</a>
+                    </div>
+                    <address>
+                        <ul>
+                            <li>서울 강남구 삼성로133길 4 청솔빌딩 2층(청담역 8번출구)</li>
+                            <li>TEL : 1644-2968</li>
+                            <li>FAX : 02-434-2963</li>
+                            <li>사업자등록번호 : 204-86-21969</li>
+                            <li>상호 : 티에고(주) </li>
+                            <li>대표 : 박태고</li>
+                        </ul>
+                    </address>
+
+                    <p class="copy">COPYRIGHT © 2014 Coffeemama ALL RIGHTS RESERVED</p>
+
+                </div>
+            </div>
+            <button class="gotop">TOP</button>
+            <button class="inquire"><a href="sub/franchise_01.html#request">가맹 <br> 문의</a></button>
+        </footer>
+    </div>
+</body>
+
+</html>

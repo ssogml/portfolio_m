@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee mama</title>
+    <link rel="shortcut icon" href="../image/common/favicon.png" type="image/x-icon" />
+    <!-- font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/common.css"><!-- header, footer에 공통 스타일 -->
+    <link rel="stylesheet" href="../css/sub.css">
+
+    <!-- js -->
+    <script defer src="../js/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="../js/sub.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script><!-- js의 라이브러리 파일: 유용한 참고코드 -->
+    <script defer src="../js/common.js"></script><!-- header, footer에 공통 스타일 -->
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="../index.html"><img src="../image/common/logo_w.png" alt="커피마마로고"></a></h1>
+
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="brand_01.html">커피마마</a>
+                            <ul class="depth2">
+                                <li><a href="brand_01.html#story">브랜드 스토리</a></li>
+                                <li><a href="brand_01.html#history">브랜드 히스토리</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="menu_01.html">메뉴</a>
+                            <ul class="depth2">
+                                <li><a href="menu_01.html">NEW</a></li>
+                                <li><a href="menu_02.html">ALL</a></li>
+                                <li><a href="menu_03.html">COFFEE</a></li>
+                                <li><a href="menu_04.html">BEVERAGE</a></li>
+                                <li><a href="menu_05.html">DESERT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="store_01.html">매장찾기</a>
+                            <ul class="depth2">
+                                <li><a href="store_01.html">매장찾기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="event_01.html">이벤트</a>
+                            <ul class="depth2">
+                                <li><a href="event_01.html">진행중인 이벤트</a></li>
+                                <li><a href="event_02.html">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="franchise_01.html">프랜차이즈</a>
+                            <ul class="depth2">
+                                <li><a href="franchise_01.html#guide">개설안내</a></li>
+                                <li><a href="franchise_01.html#step">개설절차</a></li>
+                                <li><a href="franchise_01.html#cost">개설비용</a></li>
+                                <li><a href="franchise_01.html#request">개설문의</a></li>
+                                <li><a href="franchise_01.html#faq">가맹점개설 FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="community_01.html">커뮤니티</a>
+                            <ul class="depth2">
+                                <li><a href="community_01.html">공지사항</a></li>
+                                <li><a href="community_02.html">고객센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mgnb_wrap">
+                        <div class="mgnb_inner">
+                            <ul class="mgnb">
+                                <li><a href="brand_01.html">커피마마</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="brand_01.html#story">브랜드 스토리</a></li>
+                                        <li><a href="brand_01.html#history">브랜드 히스토리</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="menu_01.html">메뉴</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="menu_01.html">NEW</a></li>
+                                        <li><a href="menu_02.html">ALL</a></li>
+                                        <li><a href="menu_03.html">COFFEE</a></li>
+                                        <li><a href="menu_04.html">BEVERAGE</a></li>
+                                        <li><a href="menu_05.html">DESERT</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="store_01.html">매장찾기</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="store_01.html">매장찾기</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="event_01.html">이벤트</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="event_01.html">진행중인 이벤트</a></li>
+                                        <li><a href="event_02.html">종료된 이벤트</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="franchise_01.html">프랜차이즈</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="franchise_01.html#guide">개설안내</a></li>
+                                        <li><a href="franchise_01.html#step">개설절차</a></li>
+                                        <li><a href="franchise_01.html#cost">개설비용</a></li>
+                                        <li><a href="franchise_01.html#request">개설문의</a></li>
+                                        <li><a href="franchise_01.html#faq">가맹점개설 FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="community_01.html">커뮤니티</a>
+                                    <ul class="mdepth2">
+                                        <li><a href="community_01.html">공지사항</a></li>
+                                        <li><a href="community_02.html">고객센터</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- mgnb_inner -->
+                        <button class="mgnb_close"><img src="../image/common/icon_close.svg" alt="메뉴닫기"></button>
+                    </div><!-- mgnb_wrap -->
+                </nav>
+
+                <button class="btn_menu"><img src="../image/common/btn_menu_w.png" alt="메뉴열기"></button>
+            </div>
+        </header>
+
+        <container id="container">
+            <div class="sub_visual bg_franchise">
+                <h1>프랜차이즈</h1>
+            </div><!-- sub_visual -->
+
+            <div class="sub_contents franchise">
+                <ul class="lnb">
+                    <li><a class="on" href=".guide">개설안내</a></li>
+                    <li><a href=".step">개설절차</a></li>
+                    <li><a href=".cost">개설비용</a></li>
+                    <li><a href=".request">개설문의</a></li>
+                    <li><a href=".faq">가맹점개설 FAQ</a></li>
+                </ul>
+
+                <div id="guide" class="guide">
+
+                    <div class="guide_txt" data-aos="fade-up">
+                        <span>전국 </span><strong> 730호점 </strong> <span>돌파!</span>
+                        <p>커피마마만의 경쟁력으로 성공 창업의 길을 열어보세요.</p>
+                    </div>
+
+
+
+                </div>
+
+                <div id="step" class="step">
+                    <div class="inner">
+                        <h3>가맹점 개설절차</h3>
+                        <div class="step_list">
+                            <div class="list_wrap step1" data-aos="fade-up">
+                                <p class="num">STEP 01</p>
+                                <p class="tit">
+                                    <span>상담접수</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 전화, 방문, 온라인 상담 접수</li>
+                                    <li>- 담당자 배정</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step2" data-aos="fade-up">
+                                <p class="num">STEP 02</p>
+                                <p class="tit">
+                                    <span>가맹점 개설 검토 및 승인</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 가맹점 개설에 대한 검토 진행</li>
+                                    <li>- 희망지역 시장조사, 상권분석 및 사업 타당성 분석</li>
+                                    <li>- 점포별 인허가 사항 및 임대 조건 협상</li>
+                                    <li>- 가맹점 개설 승인</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step3" data-aos="fade-up">
+                                <p class="num">STEP 03</p>
+                                <p class="tit">
+                                    <span>점포 임대차 계약</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 임대인 및 가맹희망자(임차인) 간의 가맹 계약 체결</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step4" data-aos="fade-up">
+                                <p class="num">STEP 04</p>
+                                <p class="tit">
+                                    <span>점포 실측/설계</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 투자비산출</li>
+                                    <li>- 도면 합의 및 공사일정확인</li>
+                                    <li>- 각종 영업 신고 및 사업자 업무 안내</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step5" data-aos="fade-up">
+                                <p class="num">STEP 05</p>
+                                <p class="tit">
+                                    <span>가맹 계약 체결</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 가맹계약 체결(가맹본부 ↔ 가맹희망자)</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step6" data-aos="fade-up">
+                                <p class="num">STEP 06</p>
+                                <p class="tit">
+                                    <span>인테리어 공사</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 인테리어 공사기간 : 약 17일 ~ 20일
+                                        공사 진척 상황에 따라 일정 변동 가능</li>
+                                    <li>- 기기 설비 설치 완료</li>
+                                    <li>- 기자재 및 초도 물품 입고</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step7" data-aos="fade-up">
+                                <p class="num">STEP 07</p>
+                                <p class="tit">
+                                    <span>점포 운영 교육</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 메뉴 제조, 서비스, 점포운영, 인력관리, 위생, 세무 등 각종 교육</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step8" data-aos="fade-up">
+                                <p class="num">STEP 08</p>
+                                <p class="tit">
+                                    <span>가맹점 오픈</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 그랜드 오픈 및 영업 개시</li>
+                                </ul>
+                            </div>
+
+                            <div class="list_wrap step9" data-aos="fade-up">
+                                <p class="num">STEP 09</p>
+                                <p class="tit">
+                                    <span>본사지원 사후관리</span>
+                                </p>
+                                <ul class="list">
+                                    <li>- 지속적인 경영지도 및 영업관리</li>
+                                    <li>- 신메뉴 개발 및 지원</li>
+                                    <li>- A/S 지원</li>
+                                </ul>
+                            </div>
+                        </div><!-- step_list -->
+                    </div><!-- inner -->
+                </div><!-- step -->
+
+                <div id="cost" class="cost">
+                    <div class="inner" data-aos="fade-up">
+                        <h3>커피마마 신규창업 비용</h3>
+                        <p>합리적인 비용으로 창업을 도와드립니다. 지금 바로 문의주세요.</p>
+                        <table>
+                            <caption>창업 비용</caption>
+                            <colgroup>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tr>
+                                <th>구분</th>
+                                <th colspan="2">금액</th>
+                                <th>내용</th>
+                                <th>비고</th>
+                            </tr>
+                            <tr>
+                                <th>가맹비</th>
+                                <td colspan="2">
+                                    <span>500만원</span> <br>
+                                    <strong>신규창업시 면제!</strong>
+                                </td>
+                                <td class="right">브랜드 및 상표사용</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>교육비</th>
+                                <td colspan="2">
+                                    <span>500만원</span> <br>
+                                    <strong>신규창업시 면제!</strong>
+                                </td>
+                                <td class="right">교육 및 매뉴얼제공</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th rowspan="3">인테리어
+                                    <br> (8평기준)
+                                </th>
+                                <td rowspan="3">1,200만원
+                                    <br>(자율시공가능)
+                                </td>
+                                <td>기본공사</td>
+                                <td class="right">
+                                    설계및디자인, 목공사, 전기, 조명공사, 도장, 필름공사, 바닥 <br>
+                                    타일공사, 설비공사, 카운터조성공사 외
+                                </td>
+                                <td rowspan="5">직접 혹은 본부 협력업체를 <br> 선택 후 결정합니다.</td>
+                            </tr>
+                            <tr>
+                                <td>필수공사</td>
+                                <td class="right">철거, 냉난방기, 전기증설, 소방</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>선택공사</td>
+                                <td class="right">
+                                    외부공사(외벽, 테라스), 화장실, 어닝, 자동문, 폴딩도어
+                                    <br>전면교체(샷시유리) 외
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>가구</th>
+                                <td colspan="2">200만원</td>
+                                <td class="right">테이블, 의자, 보조의자, 단체석 일체</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>간판</th>
+                                <td colspan="2">400만원</td>
+                                <td class="right">전면간판-LED조명쟌넬텍스트간판 <br>메뉴보드, 기본사인물</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>기기설비</th>
+                                <td colspan="2">1,900만원</td>
+                                <td class="right">에스프레소머신2구,
+                                    전용그라인더, 테이블냉장, <br>냉동고, 핫워터스펜서, 베이커리쇼케이스 <br>
+                                    언더싱크정수, 블렌더믹서기, 눈꽃빙수기, 제빙기 <br>
+                                    스팀오븐 등 관련 집기 및 비품</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>POS 시스템</th>
+                                <td colspan="2">임대</td>
+                                <td class="right">
+                                    주문 및 결제 정산시스템
+                                    <br>양방향 듀얼 POS시스템, POS구축 및 교육
+                                </td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <th colspan="3">합 계</th>
+                                <td colspan="2">약 3,700만원</td>
+                            </tr>
+                        </table>
+                        <div class="sub_info">
+                            <p>※ 로열티 10만원(VAT별도)</p>
+                            <p>※ 계약이행보증금은 보증보험으로 대체합니다.</p>
+                            <p>※ 초도물품은 매장규모와 상권에 따라 합의 후 결정합니다.</p>
+                            <p>※ 별도공사 : 철거, 냉난방기, 전기증설, 소방 등</p>
+                        </div>
+                    </div>
+                </div><!-- cost -->
+
+                <div id="faq" class="faq margin150">
+                    <div class="inner" data-aos="fade-up">
+                        <h3>가맹개설 FAQ</h3>
+                        <p>예비 창업주님들께서 주로 궁금해 하시는 내용들을 모아 정리했습니다.</p>
+                        <table>
+                            <caption>자주묻는질문</caption>
+                            <tr class="q">
+                                <td>Q</td>
+                                <td>적정한 매장 규모는 어떻게 되나요?</th>
+                            </tr>
+                            <tr class="a">
+                                <td>A</td>
+                                <td>
+                                    <div class="answer-wrap">
+                                        특별히 정해져 있는 층수 및 평수의 제한은 없지만, 층수는 1층을 포함하고 있는 것이 좋습니다. 8평 이하의 매장은 테이크아웃 형식의 매장형태로
+                                        오픈하시는 것을 권하며, 카페형 매장을 오픈하고 싶은 점주 분들께는 최소 15~20평대 이상의 매장을 권하여 드립니다.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="q">
+                                <td>Q</td>
+                                <td>매장 오픈을 위한 소요기간은 어느 정도인가요?</td>
+                            </tr>
+                            <tr class="a">
+                                <td>A</td>
+                                <td>
+                                    <div class="answer-wrap">
+                                        가맹 본 계약 후 점포 상태(철거여부) 및 평수에 따라 착공 후 약 3~4주 정도 소요되고 있습니다. 테이크아웃 매장(8~15평)은 20일
+                                        소요,
+                                        카페형 매장(15~20평)은 25일 소요 예정이며 장소와 상황에 따라 기간은 변동될 수 있습니다. 이 기간에 인테리어 공사, 본사 제품 및
+                                        서비스
+                                        교육, 공공기관에서 정한 제반법규사항을 이행합니다.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="q">
+                                <td>Q</td>
+                                <td>무경험자도 가맹점 운영이 가능한가요?</td>
+                            </tr>
+                            <tr class="a">
+                                <td>A</td>
+                                <td>
+                                    <div class="answer-wrap">
+                                        본사의 체계적인 매뉴얼 교육(음료제조/서비스/매장관리/세무 등)을 이수하면 초보자도 얼마든지 쉽게 운영하실 수 있습니다. 또한, 본사 바리스타가
+                                        직접
+                                        현장지원과 교육을 진행하여 실무적인 업무를 추가 이수하시게 됩니다. 초보점주님들도 매장을 운영하는데 문제가 없도록 적극 도와드립니다.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="q">
+                                <td>Q</td>
+                                <td>매장 운영시간은 어떻게 되나요?</td>
+                            </tr>
+                            <tr class="a">
+                                <td>A</td>
+                                <td>
+                                    <div class="answer-wrap">
+                                        기본 운영시간은 10:00 ~ 23:00 까지이며, 상권에 따라 영업시간 및 매장 영업이 활발한 시간이 다르므로 각 매장 상권에 맞는 영업을
+                                        진행하시면 됩니다.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="q">
+                                <td>Q</td>
+                                <td>식자재 공급 및 배송은 어떻게 이루어지나요?</td>
+                            </tr>
+                            <tr class="a">
+                                <td>A</td>
+                                <td>
+                                    <div class="answer-wrap">
+                                        서울/경기 물류센터를 자체적으로 기본 운영하고 있으며, 최고급 커피원료, 조각케이크 및 150여종의 커피 부재료를 전국 어디에서나 빠르게 받아
+                                        보실 수
+                                        있는 배송시스템을 갖추고 있습니다.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="q">
+                                <td>Q</td>
+                                <td>총 개설 비용은 어떻게 되나요?</td>
+                            </tr>
+                            <tr class="a">
+                                <td>A</td>
+                                <td>
+                                    <div class="answer-wrap">
+                                        매장 상황에 따라 별도공사(철거, 전기증설, 가스공사, 외장공사, 화장실, 사인공사, 소방시설 등)가 추가로 발생할 수 있습니다. 자세한 내용은
+                                        본사(1644-2968)로 문의 주시면 본사 점포개발팀에게 자세하고 친절한 상담을 받으실 수 있습니다.
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div><!-- faq -->
+
+                <div id="request" class="request margin150">
+                    <div class="inner" data-aos="fade-up">
+                        <form action="#">
+                            <h3>커피마마 가맹상담 신청</h3>
+                            <p>상담이 접수된 순서대로 신속히 답변을 드리고자 하고 있으며, 약 1주 이내에 시간이 소요될 수 있습니다.</p>
+                            <span>* 항목은 필수 입력 사항입니다.</span>
+                            <div class="form">
+                                <div class="form_top">
+                                    <div class="form_left">
+                                        <div class="form_01">
+                                            <h4>성명</h4>
+                                            <input type="text" required placeholder="성명을 입력하세요.">
+                                        </div>
+
+                                        <div class="form_02">
+                                            <h4>휴대폰 번호</h4>
+                                            <input type="text" required placeholder="'-'없이 숫자만 입력하세요.">
+                                        </div>
+
+                                        <div class="form_03">
+                                            <h4>창업 희망 지역</h4>
+                                            <div class="district">
+                                                <select name="sido" id="sido">
+                                                    <option disabled selected value="시/도">시/도</option>
+                                                    <option value="강원특별자치도">강원특별자치도</option>
+                                                    <option value="경기도">경기도</option>
+                                                    <option value="경상남도">경상남도</option>
+                                                    <option value="경상북도">경상북도</option>
+                                                    <option value="광주광역시">광주광역시</option>
+                                                    <option value="대구광역시">대구광역시</option>
+                                                    <option value="대전광역시">대전광역시</option>
+                                                    <option value="부산광역시">부산광역시</option>
+                                                    <option value="서울특별시">서울특별시</option>
+                                                    <option value="세종특별자치시">세종특별자치시</option>
+                                                    <option value="울산광역시">울산광역시</option>
+                                                    <option value="인천광역시">인천광역시</option>
+                                                    <option value="전라남도">전라남도</option>
+                                                    <option value="전라북도">전라북도</option>
+                                                    <option value="제주특별자치도">제주특별자치도</option>
+                                                    <option value="충청남도">충청남도</option>
+                                                    <option value="충청북도">충청북도</option>
+                                                </select>
+                                                <select name="sigungu" id="sigungu">
+                                                    <option disabled selected value="구/군">구/군</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form_right">
+                                        <div class="form_04">
+                                            <h4>구분</h4>
+                                            <ul>
+                                                <li>
+                                                    <input id="sort1" name="sort" type="radio">
+                                                    <label for="sort1">창업</label>
+                                                </li>
+
+                                                <li>
+                                                    <input id="sort2" name="sort" type="radio">
+                                                    <label for="sort2">점포임대</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="form_05">
+                                            <h4>문의내용</h4>
+                                            <textarea name="#" id="#" required
+                                                placeholder="문의하실 내용을 입력해주세요."></textarea>
+                                        </div>
+                                    </div>
+                                </div><!-- form_top -->
+
+                                <div class="form_bottom">
+                                    <h4>개인정보 수집ㆍ이용에 대한 동의 안내</h4>
+                                    <div class="info">
+                                        <p>원활한 서비스 제공을 위해 필요한 최소한의 개인정보를 수집하고 있습니다.</p>
+
+                                        <p>1. 개인정보의 수집 및 이용 목적 <br>가맹점 개설에 관한 상담 서비스 제공을 위한 본인 식별, 상담 내용 전달, 점포 오픈 관련 정보
+                                            안내, <br>
+                                            의사 소통 경로 확보 및 기타 원활한 양질의 서비스 제공을 위해 아래와 같은 개인정보를 수집하고 있습니다.</p>
+
+                                        <p>2. 수집하는 개인정보의 항목 <br>이름 (한글/한문/영문), 성별, 전화번호</p>
+
+                                        <p>3. 개인정보의 보유 및 이용시간 <br>개인정보의 수집 목적 또는 제공받은 목적 달성시 내규에 준하여 보관 및 파기 합니다.</p>
+
+                                        <p>※ 개인정보 수집, 이용에 대한 동의를 거부할 권리가 있습니다. 그러나 동의를 거부하실 경우 접수에 제한이 있습니다.</p>
+                                    </div>
+                                    <div class="agree">
+                                        <div><span>(필수)</span> 개인정보 수집 및 이용에 동의합니다.</div>
+                                        <ul>
+                                            <li>
+                                                <input checked id="yes" name="info" type="radio">
+                                                <label for="yes">동의</label>
+                                            </li>
+
+                                            <li>
+                                                <input id="no" name="info" type="radio">
+                                                <label for="no">동의하지 않음</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="btn">
+                            <input type="submit" value="신청하기">
+                            <input type="reset" value="취소하기">
+                        </div>
+                    </div>
+                </div><!-- request -->
+        </container>
+
+        <div class="contact">
+            <p class="tel">간편 상담 문의 <br> 1644-2968 </p>
+            <div class="form">
+                <div class="input_wrap">
+                    <input type="text" placeholder="이름">
+                    <input type="text" placeholder="연락처">
+                    <select name="regnum" id="regnum">
+                        <option disabled selected value="희망지역">희망지역</option>
+                        <option value="강원특별자치도">강원특별자치도</option>
+                        <option value="경기도">경기도</option>
+                        <option value="경상남도">경상남도</option>
+                        <option value="경상북도">경상북도</option>
+                        <option value="광주광역시">광주광역시</option>
+                        <option value="대구광역시">대구광역시</option>
+                        <option value="대전광역시">대전광역시</option>
+                        <option value="부산광역시">부산광역시</option>
+                        <option value="서울특별시">서울특별시</option>
+                        <option value="세종특별자치시">세종특별자치시</option>
+                        <option value="울산광역시">울산광역시</option>
+                        <option value="인천광역시">인천광역시</option>
+                        <option value="전라남도">전라남도</option>
+                        <option value="전라북도">전라북도</option>
+                        <option value="제주특별자치도">제주특별자치도</option>
+                        <option value="충청남도">충청남도</option>
+                        <option value="충청북도">충청북도</option>
+                    </select>
+                </div><!-- input_wrap -->
+                <div class="check">
+                    <span class="checkbox">
+                        <input type="checkbox" name="chk" id="p_chk">
+                        <label for="p_chk">
+                            개인정보 수집동의
+                        </label>
+                    </span>
+                    <a href="#">[전문보기]</a>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="문의하기">
+                </div>
+            </div><!-- form -->
+            <p class="now">* 자세한 상담을 희망하신다면,<br>가맹상담 신청을 눌러주세요.</p>
+        </div><!-- contact -->
+
+        <footer id="footer" class="pt100">
+            <div class="inner">
+                <div class="footer_left">
+                    <div class="footer_logo">
+                        <img src="../image/common/logo.png" alt="커피마마로고">
+                    </div>
+                    <div class="footer_sns">
+                        <a href="#"><img src="../image/sub/icon_insta.png" alt="insta"></a>
+                        <a href="#"><img src="../image/sub/icon_facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="../image/sub/icon_kakao.png" alt="kakao"></a>
+                        <a href="#"><img src="../image/sub/icon_youtube.png" alt="youtube"></a>
+                    </div>
+                </div>
+                <div class="footer_txt">
+                    <div class="footer_link">
+                        <a href="brand_01.html">회사소개</a>
+                        <a href="franchise_01.html#request">가맹문의</a>
+                        <a href="store_01.html">매장찾기</a>
+                        <a href="community_01.html">이용약관</a>
+                        <a href="community_01.html">개인정보 처리방침</a>
+                        <a href="community_02.html">고객센터</a>
+                    </div>
+                    <address>
+                        <ul>
+                            <li>서울 강남구 삼성로133길 4 청솔빌딩 2층(청담역 8번출구)</li>
+                            <li>TEL : 1644-2968</li>
+                            <li>FAX : 02-434-2963</li>
+                            <li>사업자등록번호 : 204-86-21969</li>
+                            <li>상호 : 티에고(주) </li>
+                            <li>대표 : 박태고</li>
+                        </ul>
+                    </address>
+
+                    <p class="copy">COPYRIGHT © 2014 Coffeemama ALL RIGHTS RESERVED</p>
+
+                </div>
+            </div>
+            <button class="gotop">TOP</button>
+            <button class="inquire"><a href="franchise_01.html#request">가맹 <br> 문의</a></button>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAWON</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/favicon.svg" type="image/x-icon" />
+
+    <!-- font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <h1><a href="index.html"><img src="image/common/logo.png" alt="HAWON"></a></h1>
+            <div class="inner">
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="sub/brand.html" class="roll">
+                                <span class="front">Brand</span>
+                                <span class="back">Brand</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="sub/brand.html">About us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub/shop.html" class="roll">
+                                <span class="front">Shop</span>
+                                <span class="back">Shop</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="sub/shop.html">All</a></li>
+                                <li><a href="sub/shop.html">Best</a></li>
+                                <li><a href="sub/shop.html">인삼</a></li>
+                                <li><a href="sub/shop.html">당귀</a></li>
+                                <li><a href="sub/shop.html">인동초</a></li>
+                                <li><a href="sub/shop.html">국화</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="roll">
+                                <span class="front">Event</span>
+                                <span class="back">Event</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="roll">
+                                <span class="front">Membership</span>
+                                <span class="back">Membership</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="#">정기구독</a></li>
+                                <li><a href="#">멤버십 등급별 혜택안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sub/community.html" class="roll">
+                                <span class="front">Community</span>
+                                <span class="back">Community</span>
+                            </a>
+                            <ul class="depth2">
+                                <li><a href="sub/community.html">Review</a></li>
+                                <li><a href="sub/community.html">Notice</a></li>
+                                <li><a href="sub/community.html">CS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="btn_menu"><img src="image/common/btn_menu.png" alt="메뉴열기"></button>
+
+                <div class="util">
+                    <button class="btn_search">검색열기</button>
+                    <button class="btn_order">장바구니</button>
+                    <button class="btn_mypage">마이페이지</button>
+                </div>
+            </div><!-- inner -->
+
+            <div class="depth2_bg"></div>
+
+            <div class="mgnb_wrap">
+                <div class="mgnb_inner">
+
+                    <div class="mgnb_search">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button class="mgnb_search_btn">검색</button>
+                    </div>
+
+                    <ul class="mgnb">
+                        <li><a href="#">Brand</a>
+                            <ul class="depth2">
+                                <li><a href="sub/brand.html">About us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Shop</a>
+                            <ul class="depth2">
+                                <li><a href="sub/shop.html">All</a></li>
+                                <li><a href="sub/shop.html">Best</a></li>
+                                <li><a href="sub/shop.html">인삼</a></li>
+                                <li><a href="sub/shop.html">당귀</a></li>
+                                <li><a href="sub/shop.html">인동초</a></li>
+                                <li><a href="sub/shop.html">국화</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Event</a>
+                            <ul class="depth2">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Membership</a>
+                            <ul class="depth2">
+                                <li><a href="#">정기구독</a></li>
+                                <li><a href="#">멤버십 등급별 혜택안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Community</a>
+                            <ul class="depth2">
+                                <li><a href="sub/community.html">Review</a></li>
+                                <li><a href="sub/community.html">Notice</a></li>
+                                <li><a href="sub/community.html">CS</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">My Page</a></li>
+
+                    </ul>
+                </div><!-- mgnb_inner -->
+                <button class="mgnb_close"><img src="image/common/btn_close.png" alt="메뉴닫기"></button>
+            </div><!-- mgnb_wrap -->
+        </header>
+
+        <main id="main">
+            <article class="visual">
+                <div class="swiper visual_list">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide visual_01">
+                            <div class="visual_txt" data-aos="fade">
+                                <span>NEW</span>
+                                <h2>인동초 이너케어 스틱</h2>
+                                <p>매일 한 포로 피어나는 맑은 피부 <br>
+                                    인동초 추출물이 피부 속 열을 식히고 <br> 피부 밸런스를 되찾아 줍니다.</p>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide visual_02">
+                            <div class="visual_txt">
+                                <span>HOT</span>
+                                <h2>인삼 이너밸런스 라인</h2>
+                                <p>매일 반복되는 피로속에서도 <br> 피부가 스스로 균형을 유지할 수 있도록 <br>
+                                    깊고 안정적인 에너지를 제안합니다. </p>
+                            </div>
+                        </li>
+                    </ul><!-- swiper-wrapper -->
+                    <div class="control"> <!-- fade효과를 주고싶으면 opacity:0에서 1로 나타나게 animation 적용 -->
+                        <span class="page-number start">01</span>
+                        <div class="swiper-pagination"></div>
+                        <span class="page-number end">02</span>
+                    </div>
+                </div>
+            </article>
+
+            <section class="story">
+                <div class="inner">
+                    <div class="story_top">
+                        <div class="story_img" data-aos="fade-right">
+                            <img src="image/main/story_01.png" alt="브랜드스토리이미지1">
+                            <img src="image/main/story_03.png" alt="브랜드스토리이미지3">
+                        </div>
+
+                        <div class="story_txt" data-aos="fade-left">
+                            <h3>Brand Story</h3>
+                            <strong>화온, <br> 자연의 온기에서 피어나다.</strong>
+                            <p>자연의 작은 온기에서 시작된 화온의 이야기</p>
+                            <a href="sub/brand.html" class="btn_more">자세히보기</a>
+                        </div>
+                    </div>
+
+                    <div class="story_bottom">
+                        <div class="story_txt" data-aos="fade-right">
+                            <h3>Brand Story</h3>
+                            <strong>천연 약재로 <br> 이너뷰티를 완성하다.</strong>
+                            <p>자연 한방 재료로 이너뷰티를 시작하여 <br> 지금의 화온이 탄생했습니다.</p>
+                            <a href="sub/brand.html" class="btn_more">자세히보기</a>
+                        </div>
+
+                        <div class="story_img" data-aos="fade-left">
+                            <img src="image/main/story_02.png" alt="브랜드스토리이미지2">
+                            <img src="image/main/story_04.png" alt="브랜드스토리이미지4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="best">
+                <div class="best_top" data-aos="fade-up">
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Best Sellers</h3>
+                    <strong data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">한방의 에너지를 담아낸 화온의
+                        이너뷰티는 <br>
+                        내면의 건강과 아름다움을 함께 케어합니다.</strong>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">화온의 대표제품들을 만나보세요.</p>
+                </div>
+
+                <div class="best_bottom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="inner">
+                        <div class="best_left">
+                            <div class="best_btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                <button class="active">인삼</button>
+                                <button>당귀</button>
+                            </div>
+
+                            <div class="best_txt">
+                                <div class="ginseng_txt active">
+                                    <a href="sub/shop.html" class="prd_line" data-aos="fade-up" data-aos-duration="1000"
+                                        data-aos-delay="300">인삼 이너밸런스 라인</a>
+                                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">피로한 일상에 활력과 함께
+                                        피부의 컨디션을 책임집니다.</p>
+                                    <div class="prd_name">
+                                        <a href="sub/shop.html" data-aos="fade-up" data-aos-duration="1000"
+                                            data-aos-delay="300">인삼
+                                            이너밸런스 스틱</a>
+                                        <a href="sub/shop.html" data-aos="fade-up" data-aos-duration="1000"
+                                            data-aos-delay="300">인삼
+                                            농축 진액</a>
+                                        <a href="sub/shop.html" data-aos="fade-up" data-aos-duration="1000"
+                                            data-aos-delay="300">인삼
+                                            이너밸런스 캡슐</a>
+                                    </div>
+                                </div>
+
+                                <div class="dongquai_txt">
+                                    <a href="sub/shop.html" class="prd_line"> 당귀 이너글로우 라인</a>
+                                    <p>당귀의 황산화 성분이 피부에 광채와 윤기를 더해줍니다.</p>
+                                    <div class="prd_name">
+                                        <a href="sub/shop.html">당귀 이너글로우 스틱</a>
+                                        <a href="sub/shop.html">당귀 농축 진액</a>
+                                        <a href="sub/shop.html">당귀 이너글로우 캡슐</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="best_img" data-aos="fade">
+                            <li class="ginseng active">
+                                <a href="#" class="prd_img">
+                                    <img src="image/main/best_01.png" alt="베스트제품">
+                                    <img class="hover_bg" src="image/main/backblur.png" alt="마우스호버 시 배경">
+                                </a>
+                                <a href="#" class="prd_img">
+                                    <img src="image/main/best_02.png" alt="베스트제품">
+                                    <img class="hover_bg" src="image/main/backblur.png" alt="마우스호버 시 배경">
+                                </a>
+                                <a href="#" class="prd_img">
+                                    <img src="image/main/best_03.png" alt="베스트제품">
+                                    <img class="hover_bg" src="image/main/backblur.png" alt="마우스호버 시 배경">
+                                </a>
+                            </li>
+
+                            <li class="dongquai">
+                                <a href="#" class="prd_img">
+                                    <img src="image/main/best_04.png" alt="베스트제품">
+                                    <img class="hover_bg" src="image/main/backblur.png" alt="마우스호버 시 배경">
+                                </a>
+                                <a href="#" class="prd_img">
+                                    <img src="image/main/best_05.png" alt="베스트제품">
+                                    <img class="hover_bg" src="image/main/backblur.png" alt="마우스호버 시 배경">
+                                </a>
+                                <a href="#" class="prd_img">
+                                    <img src="image/main/best_06.png" alt="베스트제품">
+                                    <img class="hover_bg" src="image/main/backblur.png" alt="마우스호버 시 배경">
+                                </a>
+                            </li>
+                        </ul><!-- best_img -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="event">
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Event</h3>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">화온에서 진행하는 다양한 이벤트를 확인해보세요.</p>
+                <div class="swiper event_list" data-aos="fade-up">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="event_img"><a href="#"><img src="image/main/event_01.png" alt="이벤트이미지"></a>
+                            </div>
+                            <div class="event_txt">
+                                <div class="txt_top">
+                                    <h4>당귀 이너글로우 루틴 패키지 할인 이벤트</h4>
+                                </div>
+                                <div class="txt_bottom">
+                                    <p>몸 속 순환을 돕고, 피부의 윤기를 되찾는 당귀 패키지를 특별가로 만나보세요.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="event_img"><a href="#"><img src="image/main/event_02.png" alt="이벤트이미지"></a>
+                            </div>
+                            <div class="event_txt">
+                                <div class="txt_top">
+                                    <h4>데일리 이너케어 스틱 3종 라인 체험전</h4>
+                                </div>
+                                <div class="txt_bottom">
+                                    <p>지금 시작하는 데일리 이너 루틴 3종 라인을 합리적인 구성으로 만나보세요</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="event_img"><a href="#"><img src="image/main/event_01.png" alt="이벤트이미지"></a>
+                            </div>
+                            <div class="event_txt">
+                                <div class="txt_top">
+                                    <h4>당귀 이너글로우 패키지 할인 이벤트</h4>
+                                </div>
+                                <div class="txt_bottom">
+                                    <p>몸 속 순환을 돕고, 피부의 윤기를 되찾는
+                                        당귀 패키지를 특별가로 만나보세요.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="event_img"><a href="#"><img src="image/main/event_02.png" alt="이벤트이미지"></a>
+                            </div>
+                            <div class="event_txt">
+                                <div class="txt_top">
+                                    <h4>데일리 이너케어 스틱 3종 라인 체험전</h4>
+                                </div>
+                                <div class="txt_bottom">
+                                    <p>지금 시작하는 데일리 이너 루틴 3종 라인을 합리적인 구성으로 만나보세요</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="event_img"><a href="#"><img src="image/main/event_01.png" alt="이벤트이미지"></a>
+                            </div>
+                            <div class="event_txt">
+                                <div class="txt_top">
+                                    <h4>당귀 이너글로우 패키지 할인 이벤트</h4>
+                                </div>
+                                <div class="txt_bottom">
+                                    <p>몸 속 순환을 돕고, 피부의 윤기를 되찾는
+                                        당귀 패키지를 특별가로 만나보세요.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="event_img"><a href="#"><img src="image/main/event_02.png" alt="이벤트이미지"></a>
+                            </div>
+                            <div class="event_txt">
+                                <div class="txt_top">
+                                    <h4>데일리 이너케어 스틱 3종 라인 체험전</h4>
+                                </div>
+                                <div class="txt_bottom">
+                                    <p>지금 시작하는 데일리 이너 루틴 3종 라인을 합리적인 구성으로 만나보세요</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <button class="btn_more">자세히보기</button>
+                </div>
+            </section>
+
+            <section class="membership" data-aos="fade">
+                <a href="#">
+                    <div class="inner">
+                        <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Membership</h3>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">화온 멤버십에 가입하고, 첫 주문 10%
+                            혜택을 받아보세요.</p>
+                    </div>
+                </a>
+            </section>
+
+            <section class="community">
+                <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Community</h3>
+                <div class="btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="review_btn">
+                        <button class="active">최신순</button>
+                        <button>별점순</button>
+                    </div>
+
+                    <div class="review_search" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <form action="#">
+                            <fieldset>
+                                <legend>검색영역</legend>
+                                <div class="input_box">
+                                    <input type="text" placeholder="리뷰 키워드 또는 상품 검색">
+                                    <input type="submit">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+                <ul class="review" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <li class="review_img1 active">
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_01.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">5.0</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.02.20</span>
+                                    <span class="title">부담 없고 속이 편안한 편이라 장기적으로 관리하는 느낌으로 딱이에요.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_02.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">4.5</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.02.16</span>
+                                    <span class="title">피부결이 확실히 정돈된 느낌이에요.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_03.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">4.5</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.02.10</span>
+                                    <span class="title">컨디션이 일정해지는 느낌이고 자극이 없어 만족합니다.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                        <a href="sub/community.html#" class="review_txt"><img src="image/main/community_04.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">5.0</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.01.25</span>
+                                    <span class="title">아침 루틴으로 자리 잡았어요.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                    </li>
+
+                    <li class="review_img2">
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_04.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">5.0</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.01.25</span>
+                                    <span class="title">아침 루틴으로 자리 잡았어요.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_01.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">5.0</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.02.20</span>
+                                    <span class="title">부담 없고 속이 편안한 편이라 장기적으로 관리하는 느낌으로 딱이에요.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_03.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">4.5</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.02.10</span>
+                                    <span class="title">컨디션이 일정해지는 느낌이고 자극이 없어 만족합니다.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                        <a href="sub/community.html" class="review_txt"><img src="image/main/community_02.png"
+                                alt="리뷰이미지">
+                            <div class="overlay">
+                                <div class="rating">
+                                    <img src="image/main/star.png" alt="star">
+                                    <span class="score">4.5</span>
+                                </div>
+                                <div class="info">
+                                    <span class="date">2026.02.16</span>
+                                    <span class="title">피부결이 확실히 정돈된 느낌이에요.</span>
+                                </div><!-- info -->
+                            </div><!-- overlay -->
+                        </a>
+                    </li>
+                </ul>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <a href="sub/community.html" class="btn_more">자세히보기</a>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_left">
+                    <h1><img src="image/common/logo.png" alt="화온로고"></h1>
+                    <p>화온(HAWON) | 대표자명: 박소희</p>
+                    <P>사업자등록번호: 123-45-67890</P>
+                    <P>부산광역시 중앙대로 708, 부산파이낸스센터 4층</P>
+                    <P class="copy">2025 HAWON Natural Inner Beauty, All rights reserved.</P>
+                </div>
+
+                <div class="footer_right">
+                    <div class="footer_link">
+                        <div class="cs category">
+                            <span>CS</span>
+                            <strong>070-1234-5678</strong>
+                            <p>09:00 ~ 18:00</p>
+                            <p>월요일 ~ 금요일(공휴일 제외)</p>
+                        </div>
+
+                        <div class="q&a category">
+                            <span>Q&A</span>
+                            <a href="#">공지사항</a>
+                            <a href="#">1:1 문의</a>
+                        </div>
+
+                        <div class="order category">
+                            <span>Order Tracking</span>
+                            <a href="#">주문내역</a>
+                            <a href="#">배송조회</a>
+                        </div>
+
+                        <div class="sns category">
+                            <span>SNS</span>
+                            <a href="#">Instagram</a>
+                        </div>
+
+                        <div class="Partnership category">
+                            <span>Partnership</span>
+                            <a href="#">제휴문의</a>
+                            <a href="#">해외수출문의</a>
+                        </div>
+                    </div><!-- footer_link -->
+                </div><!-- footer_right -->
+            </div><!-- inner -->
+            <button class="gotop"></button>
+        </footer>
+    </div><!-- wrap -->
+</body>
+
+</html>
