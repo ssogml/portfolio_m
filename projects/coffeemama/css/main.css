@@ -115,7 +115,7 @@ section h2{ padding-left: 12%;  font-size: 4rem; color: var(--main-color); font-
 }
 
 /* event */
-.event .event_list{ padding: 2.60416vw; display: grid; grid-template-columns: repeat(3,1fr); gap: 15px; }
+.event .event_list{ padding: 2.60416vw; display: grid; grid-template-columns: repeat(3,1fr); gap: 50px; }
 .event .event_img{ overflow: hidden; width: 100%; border-radius: 20px 20px 0 0; }
 .event .event_img img{ transition: all 0.5s; width: 100%; }
 .event .event_thumb{ position: relative; border: 1px solid var(--main-color); border-radius: 20px; overflow: hidden; }
