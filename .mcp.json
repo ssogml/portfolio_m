@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "figma-write": {
+      "command": "node",
+      "args": ["C:/Users/소희/Desktop/GitHub/figma-mcp/dist/talk_to_figma_mcp/server.js"]
+    }
+  }
+}

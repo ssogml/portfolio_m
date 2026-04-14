@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/소희/Desktop/GitHub/figma-mcp/**)",
+      "Bash(bun --version)"
+    ]
+  }
+}

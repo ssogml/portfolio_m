@@ -169,3 +169,7 @@ body.intro-lock{ height: 100vh !important; touch-action: none !important; }
   #footer .footer_bottom h1{ font-size: 3rem; }
   #footer .footer_bottom .copy{ padding-top: 10px; order: 2; text-align: center; }
 }
+
+@media (max-width: 500px){
+  .contact .vision{ font-size: 1.4rem; }
+}

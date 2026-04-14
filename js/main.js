@@ -94,7 +94,6 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
         );
     }
 
-    fadeIn(".projects h2", { x: -80 });
     fadeIn(".pj-left .pj_thumb", { x: 80 });
     fadeIn(".pj-left .pj_txt", { y: 50, delay: 0.2 });
     fadeIn(".pj-right .pj_thumb", { x: -80 });

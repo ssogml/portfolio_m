@@ -1,5 +1,5 @@
 /* ---------- Lenis (smooth scroll) ---------- */
-let lenis = new Lenis({ autoRaf: true });
+let lenis = new Lenis({ autoRaf: false });
 
 lenis.on("scroll", ScrollTrigger.update);
 gsap.ticker.add((time) => { lenis.raf(time * 1000); });
